@@ -1,5 +1,5 @@
 .jekyll-cache
 _site
 Gemfile.lock
-bootstrap
-scss/*.scssc
+res/bootstrap
+res/scss/.sass-cache/
