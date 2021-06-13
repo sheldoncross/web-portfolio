@@ -8,6 +8,7 @@ const storedTheme = localStorage.getItem("theme");
 if (storedTheme == "dark") {
   document.body.classList.add("dark-theme");
   theme.href = "res/scss/dark-theme.css";
+  btn.classList = "theme-toggle btn btn-dark right m-2";
 }
 
 btn.addEventListener("click", function() {
